@@ -9,10 +9,10 @@ Reinforcement learning algorithms such as group-relative policy optimization (GR
 
 ## Results
 <p align="center">
-<img src="imgs/comparison_baseline.png", width=70%>
+<img src="imgs/comparison_baseline.png", width=80%>
 </p>
 <p align="center">
-<img src="imgs/table_result.png", width=70%>
+<img src="imgs/table_result.png", width=80%>
 </p>
 
 ## Training
