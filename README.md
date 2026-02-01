@@ -16,7 +16,7 @@ Reinforcement learning algorithms such as group-relative policy optimization (GR
 </p>
 
 ## Training
-Wandb training logs for experiments: [here](https://api.wandb.ai/links/wenquan_lu-brown-university/s6fqzr6r).
+**Wandb training logs for experiments**: [here](https://api.wandb.ai/links/wenquan_lu-brown-university/s6fqzr6r).
 
 First install required packages for [verl](https://github.com/verl-project/verl) following their installation instructions. Our project is developed on top of [this version](https://github.com/verl-project/verl/commit/52fc6747f4d52f7b1fca900dbb98a2caf93e0595) of verl, using conda environment. We have provided our [environment.yml](./environment.yml).
 
