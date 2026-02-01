@@ -42,6 +42,9 @@ sbatch eval/eval_iterative.sh
 ```
 We use greedy decoding with average of 5 inference results as our final reported result due to the stochasticity of vLLM inference engine.
 
+## Important Q&A
+You might wonder, why the other papers does not show the collapse in their graphs. Well, my take is if some paper show up to 500 steps, then what will happen at 1500 steps (or 5000 steps) is not shown. If you can keep a model stably training on a dataset for infinite steps in reinforcement learning setting without performance degeneracy, then I think it would be a major breakthrough (that is very continual-learning, AGI-vibe 🤖🧠). That's why I think scaling up the training duration is important to extract the most juice out of a given dataset.
+
 ## Comments
 
 Our codebase builds heavily on [verl](https://github.com/verl-project/verl), [understand-r1-zero](https://github.com/sail-sg/understand-r1-zero/tree/main) and [TreePO](https://github.com/multimodal-art-projection/TreePO). Thanks to their great works!
