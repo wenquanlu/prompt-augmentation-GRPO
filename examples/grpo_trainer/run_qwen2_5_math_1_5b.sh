@@ -4,7 +4,7 @@
 #SBATCH -c 16
 #SBATCH --gres=gpu:8
 #SBATCH --nodes=1
-#SBATCH -t 48:00:00
+#SBATCH -t 96:00:00
 #SBATCH -p YOUR_PARTITION
 #SBATCH --output=./slurm/%x-%j.out
 #SBATCH --error=./slurm/%x-%j.err
