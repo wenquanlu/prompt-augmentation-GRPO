@@ -15,6 +15,9 @@ Reinforcement learning algorithms such as group-relative policy optimization (GR
 <img src="imgs/table_result.png", width=80%>
 </p>
 
+## Weights 🏋🏻‍♂️
+- [DAPO w/ Prompt Augmentation Step 2820](https://huggingface.co/daviddavidlu/DAPO-with-prompt-augmentation-step2820)
+
 ## Training
 **Wandb training logs for experiments**: [here](https://api.wandb.ai/links/wenquan_lu-brown-university/s6fqzr6r).
 
