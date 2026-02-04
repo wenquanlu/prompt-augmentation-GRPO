@@ -26,6 +26,7 @@ PYTHONUNBUFFERED=1 python3 -m verl.trainer.main_ppo \
     data.max_response_length=3072 \
     data.filter_overlong_prompts=True \
     data.truncation='left' \
+    data.seed=42 \
     actor_rollout_ref.model.path=Qwen/Qwen2.5-Math-1.5B \
     actor_rollout_ref.actor.optim.lr=1e-6 \
     actor_rollout_ref.model.use_remove_padding=True \

@@ -4,6 +4,9 @@
 **2026.02.03**
 The paper is posted on [arxiv](https://arxiv.org/abs/2602.03190)! We are actively working on applying prompt augmentation to 7B models.
 
+**2026.02.04**
+The results are still growing in our reproduced 1.5B runs, stay tuned for updates for even higher SOTA. 🚀
+
 ## Introduction
 Reinforcement learning algorithms such as group-relative policy optimization (GRPO) have demonstrated strong potential for improving the mathematical reasoning capabilities of large language models. However, prior work has consistently observed an entropy collapse phenomenon during reinforcement post-training, characterized by a monotonic decrease in policy entropy that ultimately leads to training instability and collapse. As a result, most existing approaches restrict training to short horizons (typically 5–20 epochs), limiting sustained exploration and hindering further policy improvement. In addition, nearly all prior work relies on a single, fixed reasoning prompt or template during training. In this work, we introduce prompt augmentation, a training strategy that instructs the model to generate reasoning traces under diverse templates and formats, thereby increasing rollout diversity. We show that, without a KL regularization term, prompt augmentation enables stable scaling of training duration under a fixed dataset and allows the model to tolerate low-entropy regimes without premature collapse. Empirically, a Qwen-Math-1.5B model trained with prompt augmentation on the MATH Level 3–5 dataset achieves state-of-the-art performance, reaching 44.5 per-benchmark accuracy and 51.3 per-question accuracy on standard mathematical reasoning benchmarks, including AIME24, AMC, MATH500, Minerva, and OlympiadBench.
 
@@ -60,6 +63,8 @@ You might wonder, why the other papers do not show the collapse in their graphs.
 <li> <b>How reproducible are the results?</b></li>
 
 I would say they are fairly fairly reproducible, but as always with RL, things can be uncertain. If your run collapse a bit early, then maybe give it another try I bet it is gonna run for much longer. In our experiments, we didn't do any cherrypicking in runs, (like we didn't run things three times and pick the best one). All results we reported in the paper are our first-run result. I think the key insight is as long as you can keep the model alive for bit longer, it can improve a bit further and reach higher performance.
+
+**Update**: Our second-run result already surpasses the reported first-run result, so I am now fairly confident about reproducibility.
 </ul>
 
 ## Comments
