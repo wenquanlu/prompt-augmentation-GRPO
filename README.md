@@ -70,4 +70,10 @@ Our codebase builds heavily on [verl](https://github.com/verl-project/verl), [un
 
 If you find this repository helpful, please consider giving this repo a star :star: and citing:
 ```
+@misc{lu2026promptaugmentationscalesgrpo,
+      title={Prompt Augmentation Scales up GRPO Training on Mathematical Reasoning}, 
+      author={Wenquan Lu and Hai Huang and Randall Balestriero},
+      journal={arXiv preprint arXiv:2602.03190}
+      year={2026},
+}
 ```
